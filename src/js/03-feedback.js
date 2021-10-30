@@ -17,11 +17,11 @@ function onFormSubmit(event) {
   if (email === '' || message === '') {
     return alert('Все поля должны быть заполнены!');
   }
-  const formData = {
+  objectInput = {
     email,
     message,
   };
-  console.log(formData);
+  console.log(objectInput);
 
   event.target.reset();
   localStorage.removeItem(INPUT_KEY);
