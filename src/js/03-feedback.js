@@ -23,7 +23,7 @@ function onFormSubmit(event) {
   };
   console.log(objectInput);
 
-  event.target.reset();
+  form.reset();
   localStorage.removeItem(INPUT_KEY);
 }
 
