@@ -17,10 +17,7 @@ function onFormSubmit(event) {
   if (email === '' || message === '') {
     return alert('Все поля должны быть заполнены!');
   }
-  objectInput = {
-    email,
-    message,
-  };
+  objectInput = {};
   console.log(objectInput);
 
   form.reset();
